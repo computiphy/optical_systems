@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sol-base03: #002b36;
+  --color-sol-base02: #073642;
+  --color-sol-base01: #586e75;
+  --color-sol-base00: #657b83;
+  --color-sol-base0: #839496;
+  --color-sol-base1: #93a1a1;
+  --color-sol-base2: #eee8d5;
+  --color-sol-base3: #fdf6e3;
+  --color-sol-yellow: #b58900;
+  --color-sol-orange: #cb4b16;
+  --color-sol-red: #dc322f;
+  --color-sol-magenta: #d33682;
+  --color-sol-violet: #6c71c4;
+  --color-sol-blue: #268bd2;
+  --color-sol-cyan: #2aa198;
+  --color-sol-green: #859900;
+}
+
+@layer base {
+
+  html,
+  body,
+  #root {
+    @apply h-full w-full;
+  }
+
+  body {
+    @apply bg-sol-base3 text-sol-base00 font-sans m-0 p-0 transition-colors duration-300;
+  }
+
+  :root.dark body {
+    @apply bg-black text-sol-base0;
+    background-image: radial-gradient(circle at 50% 50%, #1a1a1a 0%, #000000 100%);
+  }
+
+  canvas {
+    @apply border border-sol-base1 bg-white rounded-lg transition-colors duration-300;
+  }
+
+  :root.dark canvas {
+    @apply border-sol-orange/30 bg-gray-900;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Markdown Content Styling */
+.markdown-content h1 {
+  @apply text-2xl font-bold mb-4 text-sol-blue dark:text-sol-orange border-b border-sol-base1 dark:border-sol-orange/30 pb-2;
+}
+
+.markdown-content h2 {
+  @apply text-xl font-bold mb-3 mt-6 text-sol-blue dark:text-sol-orange;
+}
+
+.markdown-content h3 {
+  @apply text-lg font-semibold mb-2 mt-4 text-sol-base00 dark:text-sol-base0;
+}
+
+.markdown-content p {
+  @apply mb-3 text-sol-base01 dark:text-sol-base0 leading-relaxed;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+  @apply mb-4 ml-6 text-sol-base01 dark:text-sol-base0;
+}
+
+.markdown-content li {
+  @apply mb-2;
+}
+
+.markdown-content strong {
+  @apply font-bold text-sol-base00 dark:text-sol-orange;
+}
+
+.markdown-content code {
+  @apply bg-sol-base2 dark:bg-gray-800 px-2 py-1 rounded text-sm font-mono text-sol-magenta dark:text-sol-orange;
+}
+
+.markdown-content pre {
+  @apply bg-sol-base2 dark:bg-gray-900 p-4 rounded mb-4 overflow-x-auto;
+}
+
+.markdown-content pre code {
+  @apply bg-transparent p-0;
+}
