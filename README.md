@@ -1,4 +1,4 @@
-# Optical Control System
+# Optical System
 
 An interactive educational platform designed to visualize and simulate key concepts in optical communications. This application provides dynamic visualizations for Lasers, Modulation formats, Mach-Zehnder Modulators (MZM), and Coherent Detection systems.
 
