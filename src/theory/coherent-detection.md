@@ -44,6 +44,9 @@ A Phase-Locked Loop (PLL) or digital signal processing algorithms track and comp
 
 Once locked, the recovered phase reveals the transmitted data encoded in the phase modulation.
 
-## Reference:
-*Coherent Detection in Optical Communications*
-https://www.rp-photonics.com/coherent_detection.html
+## References
+1. K. Kikuchi, "Fundamentals of Coherent Optical Fiber Communications," *Journal of Lightwave Technology*, vol. 34, no. 1, pp. 157-179, 2016.
+2. S. J. Savory, "Digital filters for coherent optical receivers," *Optics Express*, vol. 16, no. 2, pp. 804-817, 2008.
+3. E. Ip and J. M. Kahn, "Compensation of Dispersion and Nonlinear Impairments Using Digital Backpropagation," *Journal of Lightwave Technology*, vol. 26, no. 20, pp. 3416-3425, 2008.
+4. M. G. Taylor, "Coherent detection method using DSP for demodulation of signal and subsequent equalization of propagation impairments," *IEEE Photonics Technology Letters*, vol. 16, no. 2, pp. 674-676, 2004.
+5. C. R. S. Fludger et al., "Coherent Equalization and POLMUX-RZ-DQPSK for 2x100G Transmission," *OFC/NFOEC*, 2008.

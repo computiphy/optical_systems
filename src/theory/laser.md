@@ -44,6 +44,9 @@ The stability of the laser modes can be visualized on a 2D map of Heater Current
     *   **CMA**: Moves along the $y=x$ diagonal (smooth tuning).
     *   **DMA**: Moves along the $y=-x$ diagonal (mode hopping).
 
-## Reference:
-* Novel interleaved sampled grating mirrors for widely tunable dbr lasers
-* https://photond.com/picwave/applications/sg-dbr-tuneable-laser
+## References
+1. L. A. Coldren et al., "Tunable Semiconductor Lasers: A Tutorial," *Journal of Lightwave Technology*, vol. 22, no. 1, pp. 193-202, 2004.
+2. G. A. Fish et al., "Monolithic widely tunable DBR lasers," *IEEE Journal of Selected Topics in Quantum Electronics*, vol. 7, no. 2, pp. 248-256, 2001.
+3. J. Buus and E. J. Murphy, "Tunable lasers and coherent optical systems," *Journal of Lightwave Technology*, vol. 24, no. 1, pp. 5-11, 2006.
+4. B. Mason et al., "Widely tunable sampled grating DBR laser with integrated electroabsorption modulator," *IEEE Photonics Technology Letters*, vol. 11, no. 6, pp. 638-640, 1999.
+5. V. Jayaraman et al., "Theory, design, and performance of extended tuning range semiconductor lasers with sampled gratings," *IEEE Journal of Quantum Electronics*, vol. 29, no. 6, pp. 1824-1834, 1993.

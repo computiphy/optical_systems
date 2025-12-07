@@ -25,7 +25,9 @@ Think of representing a sudden, short clap of sound: to reproduce that short tim
 The constellation size (e.g., 16QAM vs QPSK) changes how many bits are carried per symbol but not the symbol duration. Therefore, for the same *R_s* and *α*, the occupied bandwidth is approximately the same. Higher-order constellations often require different filtering and higher SNR, which can lead to practical spectral differences, but the primary bandwidth dependence is on *R_s* and *α*.
 
 ### References
-1. G. P. Agrawal, *Fiber-Optic Communication Systems*, 4th ed., Wiley.
-2. J. G. Proakis and M. Salehi, *Digital Communications*, 5th ed., McGraw-Hill.
-3. M. Rice, "Digital Communications: A Discrete-Time Approach" — discussion on pulse shaping and Nyquist signaling.
-4. R. G. Gallager, *Principles of Digital Communication* — theory of signaling and bandwidth.
+1. G. P. Agrawal, *Fiber-Optic Communication Systems*, 4th ed., Wiley, 2010.
+2. J. G. Proakis and M. Salehi, *Digital Communications*, 5th ed., McGraw-Hill, 2008.
+3. R. W. Tkach, "Scaling Optical Communications for the Next Decade and Beyond," *Bell Labs Technical Journal*, vol. 14, no. 4, pp. 3-20, 2010.
+4. P. J. Winzer, "High-Spectral-Efficiency Optical Modulation Formats," *Journal of Lightwave Technology*, vol. 30, no. 24, pp. 3824-3835, 2012.
+5. G. Bosco et al., "On the Performance of Nyquist-WDM Terabit Superchannels Based on PM-BPSK, PM-QPSK, PM-8QAM or PM-16QAM Subcarriers," *Journal of Lightwave Technology*, vol. 29, no. 1, pp. 53-61, 2011.
+6. M. Rice, *Digital Communications: A Discrete-Time Approach*, Pearson, 2008.
