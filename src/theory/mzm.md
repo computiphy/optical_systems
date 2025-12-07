@@ -70,6 +70,9 @@ By feeding pre-modulated or multi-level RF signals to the I and Q arms, we can g
 *   A multi-carrier scheme where the I and Q drive signals are the result of an Inverse Fast Fourier Transform (IFFT) of many subcarriers.
 *   The resulting constellation looks like a dense cloud of points (Gaussian-like distribution) in the time domain, but carries distinct QAM symbols on each frequency subcarrier.
 
-## Reference:
-*   *Mach-Zehnder Interferometers*
-*   https://www.rp-photonics.com/mach_zehnder_interferometers.html
+## References
+1. E. L. Wooten et al., "A Review of Lithium Niobate Modulators for Fiber-Optic Communications Systems," *IEEE Journal of Selected Topics in Quantum Electronics*, vol. 6, no. 1, pp. 69-82, 2000.
+2. T. Kawanishi, "High-speed optical modulators," *OFC/NFOEC*, 2008.
+3. M. Seimetz et al., "Optical Systems with High-Order DPSK and DQPSK Modulation," *Journal of Lightwave Technology*, vol. 25, no. 6, pp. 1515-1530, 2007.
+4. P. Dong et al., "Monolithic silicon modulators for 100Gb/s and beyond," *Optics Express*, vol. 22, no. 21, pp. 25788-25804, 2014.
+5. F. Heismann et al., "Lithium niobate integrated optics: Selected contemporary devices and system applications," in *Optical Fiber Telecommunications IIIB*, Academic Press, 1997.
