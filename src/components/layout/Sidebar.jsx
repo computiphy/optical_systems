@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Grid, Zap, Activity, Anchor, BarChart2, Aperture, ChevronLeft, ChevronRight, Sun, Moon } from 'lucide-react';
+import { BookOpen, Grid, Zap, Activity, Anchor, BarChart2, Aperture, ChevronLeft, ChevronRight, Sun, Moon, Waves } from 'lucide-react';
 import { useTheme } from '../../context/ThemeContext';
 
 const Sidebar = ({ activeTab, setActiveTab, isCollapsed, toggleCollapse }) => {
@@ -8,6 +8,7 @@ const Sidebar = ({ activeTab, setActiveTab, isCollapsed, toggleCollapse }) => {
     const menuItems = [
         // { id: 'basics', label: 'Basics & System', icon: BookOpen },
         { id: 'modulation', label: 'Modulation & Constellation Diagram', icon: Grid },
+        { id: 'band-formation', label: 'Band Formation Visualizer', icon: Waves },
         { id: 'laser', label: 'LASER', icon: Zap },
         { id: 'mzm', label: 'MZM', icon: Activity },
         // { id: 'wavelocking', label: 'Wavelocking', icon: Anchor },
