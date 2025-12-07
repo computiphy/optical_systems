@@ -4,6 +4,7 @@ import ModulationPage from './modules/Modulation/ModulationPage';
 import MzmPage from './modules/MZM/MzmPage';
 import CoherentDetectionPage from './modules/CoherentDetection/CoherentDetectionPage';
 import LaserPage from './modules/Laser/LaserPage';
+import OpticalModulationVisualizer from './modules/BandFormation/OpticalModulationVisualizer';
 import { BookOpen } from 'lucide-react';
 
 // Simple placeholder for empty pages
@@ -34,6 +35,7 @@ const App = () => {
                 {activeTab === 'coherent-detection' && <CoherentDetectionPage />}
                 {activeTab === 'laser' && <LaserPage />}
                 {activeTab === 'mzm' && <MzmPage />}
+                {activeTab === 'band-formation' && <OpticalModulationVisualizer />}
                 {activeTab === 'wavelocking' && <Placeholder title="Wavelocking" />}
                 {activeTab === 'gain' && <Placeholder title="Gain Control" />}
             </main>
